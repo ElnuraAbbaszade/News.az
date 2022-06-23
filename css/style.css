@@ -11,12 +11,11 @@
     align-items: center;
     background-color: #da0000;
     height: 61px;
-
 }
 a {
     color: white;
     text-decoration: none;
-    padding: 0 1.2rem;
+    padding: 0 13px;
 }
 .search {
     margin-left: 100px;
@@ -27,7 +26,22 @@ i {
 }
 .search i {
     font-size: 16px;
+    cursor: pointer;
 }
-.header { 
-    margin-left: 180px;
+
+.dollar, .euro, .rubl, .tl {
+    height: 50px;
+    width: 50px;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.valute {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    cursor: pointer;
 }
